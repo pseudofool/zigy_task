@@ -1,0 +1,36 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Your Project API",
+      "version": "1.0.0",
+      "description": "API documentation for Your Project"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:5000"
+      }
+    ],
+    "paths": {
+      "/index": {
+        "get": {
+          "summary": "Get to the index.html page - First",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      },
+      "/display": {
+        "get": {
+          "summary": "Get to the display.html page - Second",
+          "responses": {
+            "200": {
+              "description": "OK"
+            }
+          }
+        }
+      }
+    }
+  }
+  

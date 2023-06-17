@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Box Input</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .line-number {
+      display: inline-block;
+      width: 20px;
+      text-align: right;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Text Box Input</h1>
+
+  <form id="textBoxForm">
+    <div>
+      <span class="line-number">1</span>
+      <input type="text" id="textBox1" name="textBox1" value="">
+      <input type="checkbox" id="checkbox1" name="checkbox1">
+    </div>
+    <div>
+      <span class="line-number">2</span>
+      <input type="text" id="textBox2" name="textBox2" value="">
+      <input type="checkbox" id="checkbox2" name="checkbox2">
+    </div>
+    <div>
+      <span class="line-number">3</span>
+      <input type="text" id="textBox3" name="textBox3" value="">
+      <input type="checkbox" id="checkbox3" name="checkbox3">
+    </div>
+    <div>
+      <span class="line-number">4</span>
+      <input type="text" id="textBox4" name="textBox4" value="">
+      <input type="checkbox" id="checkbox4" name="checkbox4">
+    </div>
+    <div>
+      <span class="line-number">5</span>
+      <input type="text" id="textBox5" name="textBox5" value="">
+      <input type="checkbox" id="checkbox5" name="checkbox5">
+    </div>
+    <div>
+      <span class="line-number">6</span>
+      <input type="text" id="textBox6" name="textBox6" value="">
+      <input type="checkbox" id="checkbox6" name="checkbox6">
+    </div>
+
+  </form>
+
+  <script src="./index.js"></script>
+</body>
+</html>
